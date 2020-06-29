@@ -1,0 +1,7 @@
+C:\Users\Muhammad Zubair\source\repos\CSConsole\CSConsole\bin\Debug\CSConsole.exe.config
+C:\Users\Muhammad Zubair\source\repos\CSConsole\CSConsole\bin\Debug\CSConsole.exe
+C:\Users\Muhammad Zubair\source\repos\CSConsole\CSConsole\bin\Debug\CSConsole.pdb
+C:\Users\Muhammad Zubair\source\repos\CSConsole\CSConsole\obj\Debug\CSConsole.csprojAssemblyReference.cache
+C:\Users\Muhammad Zubair\source\repos\CSConsole\CSConsole\obj\Debug\CSConsole.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Zubair\source\repos\CSConsole\CSConsole\obj\Debug\CSConsole.exe
+C:\Users\Muhammad Zubair\source\repos\CSConsole\CSConsole\obj\Debug\CSConsole.pdb

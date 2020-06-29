@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C9E298A-6F0F-4F9D-A7ED-E0D04AE8887F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CSConsole</RootNamespace>
+    <AssemblyName>CSConsole</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Data\CPU\Instance_Large\DS_Large\Dataset_L_Instance_L_LinearModel_DT_1593343849.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Large\Dataset_L_Instance_L_LinearModel_KNN_1593345489.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Large\Dataset_L_Instance_L_LinearModel_LR_1593343944.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Large\Dataset_L_Instance_L_Non-LinearModel_RF_1593344017.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Large\Dataset_L_Instance_L_Non-LinearModel_XGB_1593344289.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Med\Dataset_M_Instance_L_LinearModel_DT_1593346354.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Med\Dataset_M_Instance_L_LinearModel_KNN_1593346449.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Med\Dataset_M_Instance_L_LinearModel_LR_1593346357.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Med\Dataset_M_Instance_L_Non-LinearModel_RF_1593346372.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Med\Dataset_M_Instance_L_Non-LinearModel_XGB_1593346392.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Small\Dataset_S_Instance_L_LinearModel_DT_1593353575.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Small\Dataset_S_Instance_L_LinearModel_KNN_1593353586.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Small\Dataset_S_Instance_L_LinearModel_LR_1593353578.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Small\Dataset_S_Instance_L_Non-LinearModel_RF_1593353591.txt" />
+    <Content Include="Data\CPU\Instance_Large\DS_Small\Dataset_S_Instance_L_Non-LinearModel_XGB_1593353609.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Large\Dataset_L_Instance_M_LinearModel_DT_1593334073.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Large\Dataset_L_Instance_M_LinearModel_KNN_1593296810.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Large\Dataset_L_Instance_M_LinearModel_LR_1593292797.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Large\Dataset_L_Instance_M_Non-LinearModel_RF_1593292923.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Large\Dataset_L_Instance_M_Non-LinearModel_XGB_1593294596.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Med\Dataset_M_Instance_M_LinearModel_DT_1593289804.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Med\Dataset_M_Instance_M_LinearModel_KNN_1593341267.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Med\Dataset_M_Instance_M_LinearModel_LR_1593289809.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Med\Dataset_M_Instance_M_Non-LinearModel_RF_1593291932.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Med\Dataset_M_Instance_M_Non-LinearModel_XGB_1593292030.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Small\Dataset_S_Instance_M_LinearModel_DT_1593288277.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Small\Dataset_S_Instance_M_LinearModel_KNN_1593288290.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Small\Dataset_S_Instance_M_LinearModel_LR_1593288280.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Small\Dataset_S_Instance_M_Non-LinearModel_RF_1593288295.txt" />
+    <Content Include="Data\CPU\Instance_Med\DS_Small\Dataset_S_Instance_M_Non-LinearModel_XGB_1593288363.txt" />
+    <Content Include="Data\CPU\Instance_Small\DS_Med\Dataset_M_Instance_S_LinearModel_DT_1593287729.txt" />
+    <Content Include="Data\CPU\Instance_Small\DS_Med\Dataset_M_Instance_S_LinearModel_KNN_1593287758.txt" />
+    <Content Include="Data\CPU\Instance_Small\DS_Med\Dataset_M_Instance_S_LinearModel_LR_1593287740.txt" />
+    <Content Include="Data\CPU\Instance_Small\DS_Med\Dataset_M_Instance_S_Non-LinearModel_RF_1593339923.txt" />
+    <Content Include="Data\CPU\Instance_Small\DS_Med\Dataset_M_Instance_S_Non-LinearModel_XGB_1593339859.txt" />
+    <Content Include="Data\CPU\Instance_Small\DS_Small\Dataset_S_Instance_S_LinearModel_DT_1593283849.txt" />
+    <Content Include="Data\CPU\Instance_Small\DS_Small\Dataset_S_Instance_S_LinearModel_KNN_1593283858.txt" />
+    <Content Include="Data\CPU\Instance_Small\DS_Small\Dataset_S_Instance_S_LinearModel_LR_1593283853.txt" />
+    <Content Include="Data\CPU\Instance_Small\DS_Small\Dataset_S_Instance_S_Non-LinearModel_RF_1593284196.txt" />
+    <Content Include="Data\CPU\Instance_Small\DS_Small\Dataset_S_Instance_S_Non-LinearModel_XGB_1593284030.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Large\Dataset_L_Instance_L_LinearModel_DT_1593343849.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Large\Dataset_L_Instance_L_LinearModel_KNN_1593345489.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Large\Dataset_L_Instance_L_LinearModel_LR_1593343944.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Large\Dataset_L_Instance_L_Non-LinearModel_RF_1593344018.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Large\Dataset_L_Instance_L_Non-LinearModel_XGB_1593344289.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Med\Dataset_M_Instance_L_LinearModel_DT_1593346354.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Med\Dataset_M_Instance_L_LinearModel_KNN_1593346450.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Med\Dataset_M_Instance_L_LinearModel_LR_1593346358.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Med\Dataset_M_Instance_L_Non-LinearModel_RF_1593346373.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Med\Dataset_M_Instance_L_Non-LinearModel_XGB_1593346393.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Small\Dataset_S_Instance_L_LinearModel_DT_1593353576.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Small\Dataset_S_Instance_L_LinearModel_KNN_1593353586.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Small\Dataset_S_Instance_L_LinearModel_LR_1593353579.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Small\Dataset_S_Instance_L_Non-LinearModel_RF_1593353591.txt" />
+    <Content Include="Data\Memory\Instance_Large\DS_Small\Dataset_S_Instance_L_Non-LinearModel_XGB_1593353609.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Large\Dataset_L_Instance_M_LinearModel_DT_1593334073.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Large\Dataset_L_Instance_M_LinearModel_KNN_1593296811.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Large\Dataset_L_Instance_M_LinearModel_LR_1593292797.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Large\Dataset_L_Instance_M_Non-LinearModel_RF_1593292923.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Large\Dataset_L_Instance_M_Non-LinearModel_XGB_1593294596.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Med\Dataset_M_Instance_M_LinearModel_DT_1593289805.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Med\Dataset_M_Instance_M_LinearModel_KNN_1593341268.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Med\Dataset_M_Instance_M_LinearModel_LR_1593289810.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Med\Dataset_M_Instance_M_Non-LinearModel_RF_1593288875.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Med\Dataset_M_Instance_M_Non-LinearModel_XGB_1593289048.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Small\Dataset_S_Instance_M_LinearModel_DT_1593288277.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Small\Dataset_S_Instance_M_LinearModel_KNN_1593288290.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Small\Dataset_S_Instance_M_LinearModel_LR_1593288281.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Small\Dataset_S_Instance_M_Non-LinearModel_RF_1593288296.txt" />
+    <Content Include="Data\Memory\Instance_Med\DS_Small\Dataset_S_Instance_M_Non-LinearModel_XGB_1593288364.txt" />
+    <Content Include="Data\Memory\Instance_Small\DS_Med\Dataset_M_Instance_S_LinearModel_DT_1593287730.txt" />
+    <Content Include="Data\Memory\Instance_Small\DS_Med\Dataset_M_Instance_S_LinearModel_KNN_1593287759.txt" />
+    <Content Include="Data\Memory\Instance_Small\DS_Med\Dataset_M_Instance_S_LinearModel_LR_1593287741.txt" />
+    <Content Include="Data\Memory\Instance_Small\DS_Med\Dataset_M_Instance_S_Non-LinearModel_RF_1593339924.txt" />
+    <Content Include="Data\Memory\Instance_Small\DS_Med\Dataset_M_Instance_S_Non-LinearModel_XGB_1593339860.txt" />
+    <Content Include="Data\Memory\Instance_Small\DS_Small\Dataset_S_Instance_S_LinearModel_DT_1593283850.txt" />
+    <Content Include="Data\Memory\Instance_Small\DS_Small\Dataset_S_Instance_S_LinearModel_KNN_1593283859.txt" />
+    <Content Include="Data\Memory\Instance_Small\DS_Small\Dataset_S_Instance_S_LinearModel_LR_1593283854.txt" />
+    <Content Include="Data\Memory\Instance_Small\DS_Small\Dataset_S_Instance_S_Non-LinearModel_RF_1593284197.txt" />
+    <Content Include="Data\Memory\Instance_Small\DS_Small\Dataset_S_Instance_S_Non-LinearModel_XGB_1593284031.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
